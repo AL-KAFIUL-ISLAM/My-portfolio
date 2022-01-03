@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-#name{
+p{
+    color: grey;
+}
+.name{
     color: aqua;
 }
 .flex-cont{
@@ -21,7 +24,7 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(blue, skyblue);
+    background-image: linear-gradient(aqua, skyblue);
     color: white;
     font-weight: 700;
     padding: 10px 40px;
@@ -35,4 +38,31 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    
+}
+#first-exp{
+    border-left: solid 8px;
+    border-image: linear-gradient(rgb(105, 2, 105),blue) ;
+    border-image-slice: 1;
+}
+#second-exp{
+    border-left: solid 8px;
+    border-image: linear-gradient(blue, aqua) ;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
